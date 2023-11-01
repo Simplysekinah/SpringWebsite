@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.na{
+    margin-top: -40px;
+}
+.sn{
+    color: greenyellow;
+    margin-top: -90px;
+    margin-left: 250px;
+    font-size: small;
+}
+.li{
+    margin-left: 400px;
+    margin-top: -40px;
+    display: flex;
+}
+.ws{
+    background-color: white;
+    width: 160px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.sw:hover .ws{
+    display: block;
+}
+.ml{
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.ler:hover .ml{
+    display: block;
+}
+.prm{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.pr:hover .prm{
+    display: block;
+}
+.acm{
+    background-color: white;
+    width: 90px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.ac:hover .acm{
+    display: block;
+}
+.sum{
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.sup:hover .sum{
+    display: block;
+}
+.cotm{
+    background-color: white;
+    width: 90px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+.cot:hover .cotm{
+    display: block;
+}
+.on{
+    margin-left: 40px;
+    font-weight: bold;
+    position: relative;
+}
+.to{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.th{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.fo{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.fi{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.si{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.se{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.sp{
+    margin-top: 10px;
+    height: 500px;
+}
+.bg{
+    background-image: url(springone.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.ge{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+}
+.su{
+    text-align: center;
+}
+.le{
+    width: 150px;
+    height: 60px;
+    margin-left: 600px;
+    background-color: transparent;
+}
+.le:hover{
+    background-color: black;
+    color: white;
+    border: 0px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: 0.5s ease-in-outhtml
+    ;
+    bottom: 0;
+    left: 0;
+}
+.sm{
+    text-align: center;
+    margin-top: 30px;
+}
+.ne{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+    height: 20px;
+}
+.st{
+    color: blue;
+}
+.h{
+    background-color: blue;
+}
+.wh{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+.mg{
+    height: 150px;
+    width: 150px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.mi{
+    border: 1px solid darkgrey;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+}
+.mi:hover{
+    transform: translateY(-5px);
+    transition-duration: .2s;
+    transition-property: all;
+    transition-timing-function: ease;
+    box-shadow: 0 0 0 5px rgba(169, 169, 169, 0.1);
+
+    
+}
+.mi h3:hover{
+    color: greenyellow;
+}
+h4{
+    font-size: 20px;
+}
+.sr{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.tr{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.sh{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+.co{
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+}
+.m{
+    color: green;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 100px;
+}
+.c{
+    text-align: center;
+}
+.p{
+    font-size:20px ;
+    font-weight: bold;
+    color: green;
+}
+.mp{
+    display: flex;
+    justify-content: center;
+}
+.ta{
+    font-weight: bold;
+}
+.wa{
+    margin-top: 30px;
+
+}
+.pp{
+    border-radius: 100%;
+}
+.la{
+    background-color: cadetblue;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.ha{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.he{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.hea{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.s{
+    font-size: 20px;
+}
+.sa{
+    font-size: 20px;
+}
+.sae{
+    font-size: 20px;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.ap{
+    margin-left: 80px;
+}
